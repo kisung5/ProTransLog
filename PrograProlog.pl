@@ -16,13 +16,13 @@ o_pregunta(S0,S,T0,T):- preg(Palabrapreg, Traduccionpreg), crear(Palabrapreg,S0,
 						sintagma_nominal_p(S1, S, T1, T).
 
 por_palabra([SH|SC], [TH|TC]):-determinante(_,_,SH, TH), por_palabra(SC, TC).
-por_palabra([SH|SC], [TH|TC]):-nombre(_,_,SH, TH),  por_palabra(SC, TC).
+por_palabra([SH|SC], [TH|TC]):-sust(_,_,SH, TH),  por_palabra(SC, TC).
 por_palabra([SH|SC], [TH|TC]):-verbo(_,_,SH, TH), por_palabra(SC, TC).
 por_palabra([SH|SC], [TH|TC]):-adjetivo(_,_,SH, TH),  por_palabra(SC, TC).
 por_palabra([SH|SC], [SH|TH]):-por_palabra(SC, TH).
 por_palabra([], []).
 
-sintagma_nominal(N, S0, S, T0, T, Palabranom, Palabradet):-  nombre(G, N, Palabranom, Traduccionnom),
+sintagma_nominal(N, S0, S, T0, T, Palabranom, Palabradet):-  sust(G, N, Palabranom, Traduccionnom),
     determinante(G, N, Palabradet, Traducciondet),
     adjetivo(G, N, Palabraadj, Traduccionadj),
     crear(Palabradet, S0, S1), crear(Traducciondet, T0, T1),
@@ -35,7 +35,7 @@ sintagma_verbal(N, S0, S, T0, T, Per):- verbo(N, Per, Palabraver, Traduccionver)
 					sintagma_proposicional(S1, S, T1, T, 0).
 
 sintagma_proposicional(S0, S, T0, T, X):- X < 5, preposicion(Palabraprep, Traduccionprep),
-    nombre(G, N, Palabranom, Traduccionnom),
+    sust(G, N, Palabranom, Traduccionnom),
     determinante(G, N, Palabradet, Traducciondet), adjetivo(G, N, Palabraadj, Traduccionadj),
     crear(Palabraprep, S0, S1), crear(Traduccionprep, T0, T1),
     crear(Palabradet, S1, S2), crear(Traducciondet, T1, T2),
@@ -50,13 +50,13 @@ sintagma_proposicional(S,S,T,T,_).
 /*Faltan las disyunciones con y e o*/
 
 persona(_, _, Determinante, tercera):- Determinante \== [].
-persona(Palabra, N, _, Per):- pronombre_personal(Per, N, Palabra).
+persona(Palabra, N, _, Per):- pronom_per(Per, N, Palabra).
 persona(_, _, _, _).
 crear(X, [X|S], S):- X \== [].
 crear([], S, S).
 
-vocabularioI(S):-nombre(_, _, _, S); verbo(_,_,_,S); determinante(_,_,_,S); adjetivo(_,_,_,S); interjeccion(_,S).
-vocabularioE(S):-nombre(_, _, S,_); verbo(_, _,S,_); determinante(_, _, S,_); adjetivo(_, _, S,_); interjeccion(S,_).
+vocabularioI(S):-sust(_, _, _, S); verbo(_,_,_,S); determinante(_,_,_,S); adjetivo(_,_,_,S); interjeccion(_,S).
+vocabularioE(S):-sust(_, _, S,_); verbo(_, _,S,_); determinante(_, _, S,_); adjetivo(_, _, S,_); interjeccion(S,_).
 
 lista_traduccion_oracionI(I, L):- splitS(I, LR), analizar_lista_oracionI(LR, L).
 lista_traduccion_oracionE(I, L):- splitS(I, LR), analizar_lista_oracionE(LR, L).
@@ -87,13 +87,13 @@ lista_string([H1|C1], S, U):-string_concat(H1, U, R1), lista_string(C1, R, U), s
 sintagma_nominal_p(S0, S, T0, T):-  verbo(N, Per, Palabraver, Traduccionver), Per == primera, auxq(N,Per,Auxiliar),
 				crear(Palabraver, S0, S1), crear(Traduccionver, T1, T2),
 				crear(Auxiliar,T0,Ta),
-				pronombre_personal(Per, N, EspPron),
-				nombre(neutro, N, EspPron, EngPron), crear(EngPron, Ta, T1),
+				pronom_per(Per, N, EspPron),
+				sust(neutro, N, EspPron, EngPron), crear(EngPron, Ta, T1),
 				oracion(S1, S, T2, T).
 
 sintagma_nominal_p(S0, S, T0, T):-  verbo(N, Per, Palabraver, Traduccionver), auxq(N,Per,Auxiliar),
 				crear(Palabraver, S0, S1), crear(Traduccionver, T3, T4),
-				nombre(G, N, Palabranom, Traduccionnom), determinante(G, N, Palabradet, Traducciondet),
+				sust(G, N, Palabranom, Traduccionnom), determinante(G, N, Palabradet, Traducciondet),
 				adjetivo(G, N, Palabraadj, Traduccionadj),
 				crear(Auxiliar,T0,Ta),
 				crear(Palabradet, S1, S2), crear(Traducciondet, Ta, T1),
@@ -127,8 +127,9 @@ traducir0(E, I):- var(I), string_lower(E, El), lista_traduccion_oracionE(El, L),
 
 traducir(E, I):- var(I), split_string(E, ",", "", L), concatenar_traduccionE(L, I, ",").
 traducir(E, I):- var(E), split_string(I, ",", "", L), concatenar_traduccionI(L, E, ",").
+
 translog():- write("Por favor ingrese una oracion: \n"), read(X),
-    ((X = "$",despedida(K),write(K),write("\n"));(((traducir(X, O), !);
+    ((X = "$",despedida(K),write(K),write("\n"),!);(((traducir(X, O), !);
      (traducir(O, X), !));
     mapearS(O)), write("Traduccion: "),
     write(O), write("\n"), translog()).

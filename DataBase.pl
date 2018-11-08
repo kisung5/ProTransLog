@@ -1,380 +1,380 @@
 %%%%%%%%%%%Sustantivos (Nouns)%%%%%%%%%%%%%%%%%%%
 
-nombre(masculino, singular,"hombre", "man").
-nombre(masculino, plural,  "hombres", "men").
-nombre(femenino, singular, "manzana", "apple").
-nombre(femenino, plural, "manzanas", "apples").
-nombre(femenino, singular, "costa rica", "costa rica").
-nombre(femenino, singular, "alemania", "germany").
-nombre(femenino, singular, "carne", "meat").
-nombre(femenino, plural, "carnes", "meats").
-nombre(masculino, plural, "seres vivos", "living beings").
-nombre(masculino, singular, "correr", "turron").
-nombre(femenino,singular,"a","to").
-nombre(femenino,singular,"una","a").
-nombre(femenino,singular,"o","or").
-nombre(singular,singular,"esta","this").
-nombre(masculino,singular,"ser","be").
-nombre(masculino,singular,"son","They are").
-nombre(singular,singular,"fue","It was").
-nombre(femenino,singular,"era","was").
-nombre(masculino,plural,"anos","years").
-nombre(femenino,singular,"vez","time").
-nombre(masculino,singular,"puede","can").
-nombre(femenino,singular,"parte","part").
-nombre(masculino,singular,"tiene","has").
-nombre(masculino,singular,"tiempo","weather").
-nombre(femenino,singular,"vida","lifetime").
-nombre(femenino,singular,"te","tea").
-nombre(masculino,singular,"gobierno","government").
-nombre(masculino,singular,"dia","day").
-nombre(masculino,singular,"tanto","so much").
-nombre(masculino,singular,"sido","been").
-nombre(masculino,plural,"pais","country").
-nombre(masculino,singular,"mundo","world").
-nombre(masculino,singular,"ano","year").
-nombre(masculino,singular,"estado","state").
-nombre(femenino,singular,"forma","shape").
-nombre(masculino,singular,"caso","case").
-nombre(femenino,singular,"nada","nothing").
-nombre(masculino,singular,"general","general").
-nombre(femenino,singular,"casa","home").
-nombre(masculino,singular,"hecho","fact").
-nombre(masculino,singular,"momento","moment").
-nombre(masculino,plural,"millones","millions").
-nombre(masculino,singular,"hombre","man").
-nombre(masculino,singular,"lugar","place").
-nombre(masculino,singular,"trabajo","job").
-nombre(masculino,singular,"decir","to say").
-nombre(masculino,singular,"debe","should").
-nombre(femenino,singular,"politica","politics").
-nombre(masculino,singular,"pasado","past").
-nombre(singular,singular,"estas","these").
-nombre(masculino,singular,"poder","to be able to").
-nombre(masculino,singular,"poder","power").
-nombre(masculino,singular,"ver","to see").
-nombre(femenino,plural,"veces","times").
-nombre(masculino,singular,"embargo","embargo").
-nombre(masculino,singular,"partido","match").
-nombre(femenino,plural,"personas","people").
-nombre(masculino,singular,"grupo","group").
-nombre(femenino,singular,"cuenta","account").
-nombre(masculino,singular,"pueden","may").
-nombre(masculino,singular,"tienen","they have").
-nombre(femenino,singular,"nueva","new").
-nombre(singular,singular,"fueron","were").
-nombre(femenino,singular,"mujer","woman").
-nombre(femenino,singular,"frente","front").
-nombre(femenino,plural,"cosas","things").
-nombre(masculino,singular,"fin","end").
-nombre(femenino,singular,"ciudad","city").
-nombre(femenino,singular,"manera","way").
-nombre(masculino,singular,"tener","to have").
-nombre(masculino,singular,"sistema","system").
-nombre(femenino,singular,"historia","history").
-nombre(masculino,singular,"tipo","kind").
-nombre(masculino,singular,"punto","point").
-nombre(masculino,singular,"dice","says").
-nombre(femenino,singular,"noche","night").
-nombre(femenino,singular,"agua","Water").
-nombre(singular,singular,"parece","It seems").
-nombre(femenino,singular,"situacion","situation").
-nombre(masculino,singular,"ejemplo","example").
-nombre(masculino,singular,"acuerdo","agreement").
-nombre(masculino,plural,"estados","state").
-nombre(masculino,singular,"hizo","did").
-nombre(masculino,plural,"paises","countries").
-nombre(femenino,plural,"horas","hours").
-nombre(femenino,singular,"ley","law").
-nombre(femenino,singular,"guerra","war").
-nombre(masculino,singular,"desarrollo","development").
-nombre(masculino,singular,"proceso","process").
-nombre(femenino,singular,"realidad","reality").
-nombre(masculino,singular,"sentido","sense").
-nombre(masculino,singular,"lado","side").
-nombre(masculino,singular,"cambio","change").
-nombre(femenino,singular,"mano","hand").
-nombre(masculino,singular,"eran","they were").
-nombre(singular,singular,"estar","to be").
-nombre(masculino,singular,"numero","number").
-nombre(femenino,singular,"sociedad","society").
-nombre(masculino,singular,"unas","nail").
-nombre(masculino,singular,"centro","center").
-nombre(masculino,singular,"padre","father").
-nombre(femenino,singular,"gente","people").
-nombre(masculino,singular,"final","final").
-nombre(femenino,singular,"relacion","relationship").
-nombre(masculino,singular,"cuerpo","body").
-nombre(femenino,singular,"obra","work").
-nombre(femenino,singular,"madre","mother").
-nombre(masculino,singular,"modo","mode").
-nombre(masculino,plural,"problemas","problems").
-nombre(masculino,plural,"hombres","men").
-nombre(femenino,singular,"informacion","information").
-nombre(masculino,plural,"ojos","eyes").
-nombre(femenino,singular,"muerte","death").
-nombre(masculino,singular,"nombre","first name").
-nombre(femenino,plural,"mujeres","women").
-nombre(masculino,singular,"siglo","century").
-nombre(masculino,plural,"meses","months").
-nombre(femenino,singular,"manana","morning").
-nombre(femenino,singular,"hora","hour").
-nombre(masculino,singular,"pueblo","town").
-nombre(masculino,singular,"dar","give").
-nombre(masculino,singular,"problema","problem").
-nombre(masculino,singular,"don","Don").
-nombre(femenino,singular,"da","gives").
-nombre(femenino,singular,"verdad","true").
-nombre(femenino,singular,"maria","Maria").
-nombre(masculino,singular,"podria","could").
-nombre(masculino,singular,"seria","would").
-nombre(femenino,singular,"cabeza","head").
-nombre(femenino,singular,"tierra","Earth").
-nombre(masculino,singular,"equipo","equipment").
-nombre(masculino,plural,"casos","cases").
-nombre(masculino,singular,"nivel","level").
-nombre(femenino,singular,"familia","family").
-nombre(singular,singular,"partir","to split").
-nombre(femenino,singular,"falta","lack").
-nombre(singular,singular,"llegar","arrive").
-nombre(femenino,singular,"cosa","thing").
-nombre(femenino,singular,"seguridad","security").
-nombre(femenino,singular,"trata","about").
-nombre(masculino,singular,"tuvo","had").
-nombre(masculino,singular,"respecto","respect").
-nombre(femenino,singular,"semana","week").
-nombre(femenino,singular,"voz","voice").
-nombre(masculino,singular,"paso","passed").
-nombre(masculino,singular,"proyecto","draft").
-nombre(masculino,singular,"mercado","market").
-nombre(femenino,singular,"mayoria","most").
-nombre(femenino,singular,"luz","light").
-nombre(masculino,singular,"este","East").
-nombre(femenino,plural,"pesetas","pesetas").
-nombre(masculino,singular,"orden","order").
-nombre(masculino,singular,"programa","Program").
-nombre(femenino,plural,"palabras","words").
-nombre(femenino,singular,"empresa","company").
-nombre(masculino,singular,"puesto","Market Stall").
-nombre(femenino,singular,"m","m").
-nombre(masculino,singular,"libro","book").
-nombre(femenino,singular,"persona","person").
-nombre(masculino,singular,"total","total").
-nombre(femenino,singular,"c","c").
-nombre(femenino,plural,"condiciones","terms").
-nombre(masculino,singular,"mexico","Mexico").
-nombre(femenino,singular,"fuerza","force").
-nombre(femenino,singular,"accion","action").
-nombre(masculino,singular,"amor","love").
-nombre(femenino,singular,"puerta","door").
-nombre(masculino,singular,"pesar","to weigh").
-nombre(femenino,singular,"zona","zone").
-nombre(masculino,singular,"sabe","knows").
-nombre(femenino,singular,"calle","Street").
-nombre(femenino,singular,"musica","music").
-nombre(femenino,singular,"vista","view").
-nombre(masculino,singular,"campo","countryside").
-nombre(masculino,singular,"saber","to know").
-nombre(femenino,plural,"obras","works").
-nombre(femenino,singular,"razon","reason").
-nombre(femenino,singular,"presencia","presence").
-nombre(masculino,singular,"tema","theme").
-nombre(masculino,singular,"dinero","money").
-nombre(femenino,singular,"comision","commission").
-nombre(masculino,singular,"servicio","service").
-nombre(masculino,singular,"ultima","last").
-nombre(masculino,singular,"ciento","hundred").
-nombre(singular,singular,"hablar","to talk").
-nombre(masculino,plural,"minutos","minutes").
-nombre(femenino,singular,"produccion","production").
-nombre(masculino,singular,"camino","path").
-nombre(masculino,singular,"fondo","background").
-nombre(femenino,singular,"direccion","address").
-nombre(masculino,singular,"papel","paper").
-nombre(femenino,singular,"idea","idea").
-nombre(masculino,singular,"dado","dice").
-nombre(femenino,singular,"base","base").
-nombre(femenino,singular,"capital","capital").
-nombre(femenino,singular,"europa","Europe").
-nombre(femenino,singular,"libertad","freedom").
-nombre(masculino,singular,"espacio","space").
-nombre(singular,singular,"ir","to go").
-nombre(femenino,singular,"poblacion","population").
-nombre(femenino,plural,"empresas","Business").
-nombre(masculino,singular,"estudio","study").
-nombre(femenino,singular,"salud","Health").
-nombre(masculino,plural,"servicios","services").
-nombre(femenino,singular,"haya","beech").
-nombre(masculino,singular,"principio","beginning").
-nombre(masculino,singular,"siendo","being").
-nombre(femenino,singular,"cultura","culture").
-nombre(femenino,singular,"media","half").
-nombre(masculino,singular,"arte","art").
-nombre(femenino,singular,"paz","peace").
-nombre(masculino,singular,"sector","sector").
-nombre(femenino,singular,"imagen","image").
-nombre(femenino,singular,"medida","measure").
-nombre(masculino,singular,"deben","must").
-nombre(masculino,plural,"datos","data").
-nombre(masculino,singular,"consejo","advice").
-nombre(masculino,plural,"interes","interest").
-nombre(masculino,singular,"julio","July").
-nombre(masculino,plural,"grupos","groups").
-nombre(masculino,plural,"miembros","members").
-nombre(singular,singular,"existit","to exist").
-nombre(femenino,singular,"cara","expensive").
-nombre(femenino,singular,"edad","age").
-nombre(masculino,singular,"movimiento","movement").
-nombre(masculino,plural,"puntos","points").
-nombre(femenino,singular,"actividad","activity").
-nombre(masculino,singular,"uso","use").
-nombre(masculino,singular,"futuro","future").
-nombre(masculino,plural,"mes","month").
-nombre(femenino,singular,"posibilidad","possibility").
-nombre(masculino,singular,"seguir","to follow").
-nombre(masculino,plural,"resultados","results").
-nombre(femenino,singular,"educacion","education").
-nombre(femenino,singular,"atencion","Attention").
-nombre(femenino,singular,"capacidad","capacity").
-nombre(masculino,singular,"efecto","effect").
-nombre(masculino,singular,"valor","value").
-nombre(masculino,singular,"aire","air").
-nombre(femenino,singular,"investigacion","investigation").
-nombre(femenino,singular,"figura","figure").
-nombre(femenino,singular,"comunidad","community").
-nombre(femenino,singular,"necesidad","need").
-nombre(femenino,singular,"serie","series").
-nombre(femenino,singular,"organizacion","organization").
-nombre(femenino,plural,"nuevas","new").
-nombre(masculino,singular,"comer","to eat").
-nombre(masculino,singular,"cocinar","to cook").
+sust(masculino, singular,"hombre", "man").
+sust(masculino, plural,  "hombres", "men").
+sust(femenino, singular, "manzana", "apple").
+sust(femenino, plural, "manzanas", "apples").
+sust(femenino, singular, "costa rica", "costa rica").
+sust(femenino, singular, "alemania", "germany").
+sust(femenino, singular, "carne", "meat").
+sust(femenino, plural, "carnes", "meats").
+sust(masculino, plural, "seres vivos", "living beings").
+sust(masculino, singular, "correr", "turron").
+sust(femenino,singular,"a","to").
+sust(femenino,singular,"una","a").
+sust(femenino,singular,"o","or").
+sust(singular,singular,"esta","this").
+sust(masculino,singular,"ser","be").
+sust(masculino,singular,"son","They are").
+sust(singular,singular,"fue","It was").
+sust(femenino,singular,"era","was").
+sust(masculino,plural,"anos","years").
+sust(femenino,singular,"vez","time").
+sust(masculino,singular,"puede","can").
+sust(femenino,singular,"parte","part").
+sust(masculino,singular,"tiene","has").
+sust(masculino,singular,"tiempo","weather").
+sust(femenino,singular,"vida","lifetime").
+sust(femenino,singular,"te","tea").
+sust(masculino,singular,"gobierno","government").
+sust(masculino,singular,"dia","day").
+sust(masculino,singular,"tanto","so much").
+sust(masculino,singular,"sido","been").
+sust(masculino,plural,"pais","country").
+sust(masculino,singular,"mundo","world").
+sust(masculino,singular,"ano","year").
+sust(masculino,singular,"estado","state").
+sust(femenino,singular,"forma","shape").
+sust(masculino,singular,"caso","case").
+sust(femenino,singular,"nada","nothing").
+sust(masculino,singular,"general","general").
+sust(femenino,singular,"casa","home").
+sust(masculino,singular,"hecho","fact").
+sust(masculino,singular,"momento","moment").
+sust(masculino,plural,"millones","millions").
+sust(masculino,singular,"hombre","man").
+sust(masculino,singular,"lugar","place").
+sust(masculino,singular,"trabajo","job").
+sust(masculino,singular,"decir","to say").
+sust(masculino,singular,"debe","should").
+sust(femenino,singular,"politica","politics").
+sust(masculino,singular,"pasado","past").
+sust(singular,singular,"estas","these").
+sust(masculino,singular,"poder","to be able to").
+sust(masculino,singular,"poder","power").
+sust(masculino,singular,"ver","to see").
+sust(femenino,plural,"veces","times").
+sust(masculino,singular,"embargo","embargo").
+sust(masculino,singular,"partido","match").
+sust(femenino,plural,"personas","people").
+sust(masculino,singular,"grupo","group").
+sust(femenino,singular,"cuenta","account").
+sust(masculino,singular,"pueden","may").
+sust(masculino,singular,"tienen","they have").
+sust(femenino,singular,"nueva","new").
+sust(singular,singular,"fueron","were").
+sust(femenino,singular,"mujer","woman").
+sust(femenino,singular,"frente","front").
+sust(femenino,plural,"cosas","things").
+sust(masculino,singular,"fin","end").
+sust(femenino,singular,"ciudad","city").
+sust(femenino,singular,"manera","way").
+sust(masculino,singular,"tener","to have").
+sust(masculino,singular,"sistema","system").
+sust(femenino,singular,"historia","history").
+sust(masculino,singular,"tipo","kind").
+sust(masculino,singular,"punto","point").
+sust(masculino,singular,"dice","says").
+sust(femenino,singular,"noche","night").
+sust(femenino,singular,"agua","Water").
+sust(singular,singular,"parece","It seems").
+sust(femenino,singular,"situacion","situation").
+sust(masculino,singular,"ejemplo","example").
+sust(masculino,singular,"acuerdo","agreement").
+sust(masculino,plural,"estados","state").
+sust(masculino,singular,"hizo","did").
+sust(masculino,plural,"paises","countries").
+sust(femenino,plural,"horas","hours").
+sust(femenino,singular,"ley","law").
+sust(femenino,singular,"guerra","war").
+sust(masculino,singular,"desarrollo","development").
+sust(masculino,singular,"proceso","process").
+sust(femenino,singular,"realidad","reality").
+sust(masculino,singular,"sentido","sense").
+sust(masculino,singular,"lado","side").
+sust(masculino,singular,"cambio","change").
+sust(femenino,singular,"mano","hand").
+sust(masculino,singular,"eran","they were").
+sust(singular,singular,"estar","to be").
+sust(masculino,singular,"numero","number").
+sust(femenino,singular,"sociedad","society").
+sust(masculino,singular,"unas","nail").
+sust(masculino,singular,"centro","center").
+sust(masculino,singular,"padre","father").
+sust(femenino,singular,"gente","people").
+sust(masculino,singular,"final","final").
+sust(femenino,singular,"relacion","relationship").
+sust(masculino,singular,"cuerpo","body").
+sust(femenino,singular,"obra","work").
+sust(femenino,singular,"madre","mother").
+sust(masculino,singular,"modo","mode").
+sust(masculino,plural,"problemas","problems").
+sust(masculino,plural,"hombres","men").
+sust(femenino,singular,"informacion","information").
+sust(masculino,plural,"ojos","eyes").
+sust(femenino,singular,"muerte","death").
+sust(masculino,singular,"sust","first name").
+sust(femenino,plural,"mujeres","women").
+sust(masculino,singular,"siglo","century").
+sust(masculino,plural,"meses","months").
+sust(femenino,singular,"manana","morning").
+sust(femenino,singular,"hora","hour").
+sust(masculino,singular,"pueblo","town").
+sust(masculino,singular,"dar","give").
+sust(masculino,singular,"problema","problem").
+sust(masculino,singular,"don","Don").
+sust(femenino,singular,"da","gives").
+sust(femenino,singular,"verdad","true").
+sust(femenino,singular,"maria","Maria").
+sust(masculino,singular,"podria","could").
+sust(masculino,singular,"seria","would").
+sust(femenino,singular,"cabeza","head").
+sust(femenino,singular,"tierra","Earth").
+sust(masculino,singular,"equipo","equipment").
+sust(masculino,plural,"casos","cases").
+sust(masculino,singular,"nivel","level").
+sust(femenino,singular,"familia","family").
+sust(singular,singular,"partir","to split").
+sust(femenino,singular,"falta","lack").
+sust(singular,singular,"llegar","arrive").
+sust(femenino,singular,"cosa","thing").
+sust(femenino,singular,"seguridad","security").
+sust(femenino,singular,"trata","about").
+sust(masculino,singular,"tuvo","had").
+sust(masculino,singular,"respecto","respect").
+sust(femenino,singular,"semana","week").
+sust(femenino,singular,"voz","voice").
+sust(masculino,singular,"paso","passed").
+sust(masculino,singular,"proyecto","draft").
+sust(masculino,singular,"mercado","market").
+sust(femenino,singular,"mayoria","most").
+sust(femenino,singular,"luz","light").
+sust(masculino,singular,"este","East").
+sust(femenino,plural,"pesetas","pesetas").
+sust(masculino,singular,"orden","order").
+sust(masculino,singular,"programa","Program").
+sust(femenino,plural,"palabras","words").
+sust(femenino,singular,"empresa","company").
+sust(masculino,singular,"puesto","Market Stall").
+sust(femenino,singular,"m","m").
+sust(masculino,singular,"libro","book").
+sust(femenino,singular,"persona","person").
+sust(masculino,singular,"total","total").
+sust(femenino,singular,"c","c").
+sust(femenino,plural,"condiciones","terms").
+sust(masculino,singular,"mexico","Mexico").
+sust(femenino,singular,"fuerza","force").
+sust(femenino,singular,"accion","action").
+sust(masculino,singular,"amor","love").
+sust(femenino,singular,"puerta","door").
+sust(masculino,singular,"pesar","to weigh").
+sust(femenino,singular,"zona","zone").
+sust(masculino,singular,"sabe","knows").
+sust(femenino,singular,"calle","Street").
+sust(femenino,singular,"musica","music").
+sust(femenino,singular,"vista","view").
+sust(masculino,singular,"campo","countryside").
+sust(masculino,singular,"saber","to know").
+sust(femenino,plural,"obras","works").
+sust(femenino,singular,"razon","reason").
+sust(femenino,singular,"presencia","presence").
+sust(masculino,singular,"tema","theme").
+sust(masculino,singular,"dinero","money").
+sust(femenino,singular,"comision","commission").
+sust(masculino,singular,"servicio","service").
+sust(masculino,singular,"ultima","last").
+sust(masculino,singular,"ciento","hundred").
+sust(singular,singular,"hablar","to talk").
+sust(masculino,plural,"minutos","minutes").
+sust(femenino,singular,"produccion","production").
+sust(masculino,singular,"camino","path").
+sust(masculino,singular,"fondo","background").
+sust(femenino,singular,"direccion","address").
+sust(masculino,singular,"papel","paper").
+sust(femenino,singular,"idea","idea").
+sust(masculino,singular,"dado","dice").
+sust(femenino,singular,"base","base").
+sust(femenino,singular,"capital","capital").
+sust(femenino,singular,"europa","Europe").
+sust(femenino,singular,"libertad","freedom").
+sust(masculino,singular,"espacio","space").
+sust(singular,singular,"ir","to go").
+sust(femenino,singular,"poblacion","population").
+sust(femenino,plural,"empresas","Business").
+sust(masculino,singular,"estudio","study").
+sust(femenino,singular,"salud","Health").
+sust(masculino,plural,"servicios","services").
+sust(femenino,singular,"haya","beech").
+sust(masculino,singular,"principio","beginning").
+sust(masculino,singular,"siendo","being").
+sust(femenino,singular,"cultura","culture").
+sust(femenino,singular,"media","half").
+sust(masculino,singular,"arte","art").
+sust(femenino,singular,"paz","peace").
+sust(masculino,singular,"sector","sector").
+sust(femenino,singular,"imagen","image").
+sust(femenino,singular,"medida","measure").
+sust(masculino,singular,"deben","must").
+sust(masculino,plural,"datos","data").
+sust(masculino,singular,"consejo","advice").
+sust(masculino,plural,"interes","interest").
+sust(masculino,singular,"julio","July").
+sust(masculino,plural,"grupos","groups").
+sust(masculino,plural,"miembros","members").
+sust(singular,singular,"existit","to exist").
+sust(femenino,singular,"cara","expensive").
+sust(femenino,singular,"edad","age").
+sust(masculino,singular,"movimiento","movement").
+sust(masculino,plural,"puntos","points").
+sust(femenino,singular,"actividad","activity").
+sust(masculino,singular,"uso","use").
+sust(masculino,singular,"futuro","future").
+sust(masculino,plural,"mes","month").
+sust(femenino,singular,"posibilidad","possibility").
+sust(masculino,singular,"seguir","to follow").
+sust(masculino,plural,"resultados","results").
+sust(femenino,singular,"educacion","education").
+sust(femenino,singular,"atencion","Attention").
+sust(femenino,singular,"capacidad","capacity").
+sust(masculino,singular,"efecto","effect").
+sust(masculino,singular,"valor","value").
+sust(masculino,singular,"aire","air").
+sust(femenino,singular,"investigacion","investigation").
+sust(femenino,singular,"figura","figure").
+sust(femenino,singular,"comunidad","community").
+sust(femenino,singular,"necesidad","need").
+sust(femenino,singular,"serie","series").
+sust(femenino,singular,"organizacion","organization").
+sust(femenino,plural,"nuevas","new").
+sust(masculino,singular,"comer","to eat").
+sust(masculino,singular,"cocinar","to cook").
 
-nombre(masculino,singular, "perro", "dog").
-nombre(masculino,plural, "perros", "dogs").
-nombre(masculino,singular, "gato", "cat").
-nombre(masculino, plural, "gatos", "cats").
-nombre(masculino, singular, "caballo", "horse").
-nombre(masculino, plural, "caballos", "horses").
-nombre(masculino, singular, "pajaro", "bird").
-nombre(masculino, plural, "pajaros", "birds").
-nombre(masculino, singular, "oso", "bear").
-nombre(masculino, plural, "osos", "bears").
-nombre(masculino, singular, "conejo", "rabbit").
-nombre(masculino, plural, "conejos", "rabbits").
-nombre(masculino, singular, "zorro", "fox").
-nombre(masculino, plural, "zorros", "foxes").
-nombre(masculino, singular, "lobo", "wolf").
-nombre(masculino, plural, "lobos", "wolves").
-nombre(masculino, singular, "pez", "fish").
-nombre(masculino, plural, "peces", "fish").
-nombre(femenino, singular, "vaca", "cow").
-nombre(femenino, plural, "vacas", "cows").
-nombre(femenino, singular, "abeja", "bee").
-nombre(femenino, plural, "abejas", "bees").
-nombre(femenino, singular, "ballena", "whale").
-nombre(femenino, plural, "ballenas", "whales").
-nombre(femenino, singular, "rata", "rat").
-nombre(femenino, plural, "ratas", "rats").
-nombre(masculino, singular, "arbol", "tree").
-nombre(masculino, plural, "arboles", "trees").
-nombre(masculino, singular, "avion", "airplane").
-nombre(masculino, singular, "barco", "ship").
-nombre(fememnino, singular, "montana", "mountain").
-nombre(masculino, singular, "rio", "river").
-nombre(masculino, singular, "instituto", "institute").
-nombre(femenino, singular, "calle", "street").
-nombre(femenino, singular, "camara", "camera").
-nombre(masculino, singular, "plastico", "plastic").
-nombre(masculino, singular, "cuchillo", "knife").
-nombre(masculino, plural, "cuchillos", "knives").
-
-
-nombre(masculino, singular, "abogado", "lawyer").
-nombre(masculino, plural, "abogados", "lawyers").
-nombre(masculino, singular, "chef", "chef").
-nombre(masculino, singular, "actor", "actor").
-nombre(femenino, singular, "actriz", "actress").
-nombre(masculino, plural, "actores", "actors").
-nombre(masculino, singular, "esposo", "husband").
-nombre(femenino, singular, "esposa", "wife").
-nombre(masculino, singular, "hijo", "son").
-nombre(femenino, singular, "hija", "daughter").
-nombre(masculino, plural, "hijos", "children").
-nombre(femenino, plural, "hijas", "children").
-nombre(masculino, singular, "tio", "uncle").
-nombre(femenino, singular, "tia", "aunt").
-nombre(masculino, singular, "abuelo", "grandfather").
-nombre(femenino, singular, "abuela", "grandmother").
-nombre(masculino, plural, "abuelos", "grandparents").
-nombre(masculino, singular, "hermano", "brother").
-nombre(femenino, singular, "hermana", "sister").
-nombre(masculino, singular, "doctor", "doctor").
-nombre(masculino, singular, "bebe", "baby").
-nombre(masculino, plural, "doctors", "doctors").
-nombre(femenino, singular, "enfermera", "nurse").
-nombre(femenino, plural, "enfermeras", "nurses").
-nombre(masculino, singular, "ingeniero", "engineer").
-nombre(femenino, singular, "ingeniera", "engineer").
-nombre(masculino, singular, "jefe", "boss").
-nombre(masculino, singular, "presidente", "president").
-nombre(masculino, singular, "artista", "artist").
-nombre(femenino, singular, "artista", "artist").
-nombre(masculino, singular, "amigo", "friend").
-nombre(femenino, singular, "amiga", "friend").
-nombre(masculino, plural, "amigos", "friends").
-nombre(masculino, singular, "panadero", "baker").
-nombre(masculino, singular, "musico", "musician").
-nombre(masculino, plural, "musicos", "musician").
-nombre(masculino, singular, "cantante", "singer").
-nombre(masculino, singular, "soldado", "soldier").
-nombre(masculino, singular, "chofer", "driver").
-nombre(masculino, singular, "juez", "jugde").
-nombre(masculino, singular, "nino", "boy").
-nombre(femenino, singular, "nina", "girl").
-nombre(masculino, singular, "lector", "reader").
-nombre(masculino, singular, "lider", "leader").
-nombre(masculino, singular, "maestro", "teacher").
-nombre(masculino, singular, "profesor", "professor").
-nombre(masculino, singular, "policia", "police").
-
-nombre(masculino, singular, "hospital", "hospital").
-nombre(masculino, singular, "hotel", "hotel").
-nombre(femenino, singular, "casa", "house").
-nombre(masculino, singular, "aula", "classroom").
-nombre(masculino, singular, "bano", "bathroom").
-nombre(masculino, singular, "cuarto", "room").
-nombre(femenino, singular, "cocina", "kitchen").
-
-nombre(femenino, singular, "manzana", "apple").
-nombre(femenino, singular, "sandia", "watermelon").
-nombre(masculino, singular, "pan", "bread").
-nombre(femenimo, singular, "comida", "food").
-nombre(masculino, singular, "pescado", "fish").
-nombre(femenino, singular, "naranja", "orange").
-nombre(femenino, singular, "ensalada", "salad").
+sust(masculino,singular, "perro", "dog").
+sust(masculino,plural, "perros", "dogs").
+sust(masculino,singular, "gato", "cat").
+sust(masculino, plural, "gatos", "cats").
+sust(masculino, singular, "caballo", "horse").
+sust(masculino, plural, "caballos", "horses").
+sust(masculino, singular, "pajaro", "bird").
+sust(masculino, plural, "pajaros", "birds").
+sust(masculino, singular, "oso", "bear").
+sust(masculino, plural, "osos", "bears").
+sust(masculino, singular, "conejo", "rabbit").
+sust(masculino, plural, "conejos", "rabbits").
+sust(masculino, singular, "zorro", "fox").
+sust(masculino, plural, "zorros", "foxes").
+sust(masculino, singular, "lobo", "wolf").
+sust(masculino, plural, "lobos", "wolves").
+sust(masculino, singular, "pez", "fish").
+sust(masculino, plural, "peces", "fish").
+sust(femenino, singular, "vaca", "cow").
+sust(femenino, plural, "vacas", "cows").
+sust(femenino, singular, "abeja", "bee").
+sust(femenino, plural, "abejas", "bees").
+sust(femenino, singular, "ballena", "whale").
+sust(femenino, plural, "ballenas", "whales").
+sust(femenino, singular, "rata", "rat").
+sust(femenino, plural, "ratas", "rats").
+sust(masculino, singular, "arbol", "tree").
+sust(masculino, plural, "arboles", "trees").
+sust(masculino, singular, "avion", "airplane").
+sust(masculino, singular, "barco", "ship").
+sust(fememnino, singular, "montana", "mountain").
+sust(masculino, singular, "rio", "river").
+sust(masculino, singular, "instituto", "institute").
+sust(femenino, singular, "calle", "street").
+sust(femenino, singular, "camara", "camera").
+sust(masculino, singular, "plastico", "plastic").
+sust(masculino, singular, "cuchillo", "knife").
+sust(masculino, plural, "cuchillos", "knives").
 
 
-nombre(neutro, singular, "yo", "i").
-nombre(neutro, singular, "yo", "me").
-nombre(neutro, singular, "me", "i").
-nombre(neutro, plural, "nosotros", "we").
-nombre(neutro, plural, "nos", "we").
-nombre(neutro, plural, "nosotras", "we").
-nombre(neutro, singular, "vos", "you").
-nombre(neutro, singular, "tu", "you").
-nombre(neutro, singular, "ti", "you").
-nombre(neutro, singular, "te", "you").
-nombre(neutro, plural, "vosotros", "you").
-nombre(neutro, plural, "vosotras", "you").
-nombre(neutro, plural, "vos", "you").
-nombre(neutro, plural, "os", "you").
-nombre(neutro, singular, "ella", "she").
-nombre(neutro, singular, "el", "he").
-nombre(neutro, plural, "ellos", "they").
-nombre(neutro, plural, "ellas", "they").
-nombre(neutro, plural, "les", "they").
+sust(masculino, singular, "abogado", "lawyer").
+sust(masculino, plural, "abogados", "lawyers").
+sust(masculino, singular, "chef", "chef").
+sust(masculino, singular, "actor", "actor").
+sust(femenino, singular, "actriz", "actress").
+sust(masculino, plural, "actores", "actors").
+sust(masculino, singular, "esposo", "husband").
+sust(femenino, singular, "esposa", "wife").
+sust(masculino, singular, "hijo", "son").
+sust(femenino, singular, "hija", "daughter").
+sust(masculino, plural, "hijos", "children").
+sust(femenino, plural, "hijas", "children").
+sust(masculino, singular, "tio", "uncle").
+sust(femenino, singular, "tia", "aunt").
+sust(masculino, singular, "abuelo", "grandfather").
+sust(femenino, singular, "abuela", "grandmother").
+sust(masculino, plural, "abuelos", "grandparents").
+sust(masculino, singular, "hermano", "brother").
+sust(femenino, singular, "hermana", "sister").
+sust(masculino, singular, "doctor", "doctor").
+sust(masculino, singular, "bebe", "baby").
+sust(masculino, plural, "doctors", "doctors").
+sust(femenino, singular, "enfermera", "nurse").
+sust(femenino, plural, "enfermeras", "nurses").
+sust(masculino, singular, "ingeniero", "engineer").
+sust(femenino, singular, "ingeniera", "engineer").
+sust(masculino, singular, "jefe", "boss").
+sust(masculino, singular, "presidente", "president").
+sust(masculino, singular, "artista", "artist").
+sust(femenino, singular, "artista", "artist").
+sust(masculino, singular, "amigo", "friend").
+sust(femenino, singular, "amiga", "friend").
+sust(masculino, plural, "amigos", "friends").
+sust(masculino, singular, "panadero", "baker").
+sust(masculino, singular, "musico", "musician").
+sust(masculino, plural, "musicos", "musician").
+sust(masculino, singular, "cantante", "singer").
+sust(masculino, singular, "soldado", "soldier").
+sust(masculino, singular, "chofer", "driver").
+sust(masculino, singular, "juez", "jugde").
+sust(masculino, singular, "nino", "boy").
+sust(femenino, singular, "nina", "girl").
+sust(masculino, singular, "lector", "reader").
+sust(masculino, singular, "lider", "leader").
+sust(masculino, singular, "maestro", "teacher").
+sust(masculino, singular, "profesor", "professor").
+sust(masculino, singular, "policia", "police").
 
-nombre(_, _, [], []).
+sust(masculino, singular, "hospital", "hospital").
+sust(masculino, singular, "hotel", "hotel").
+sust(femenino, singular, "casa", "house").
+sust(masculino, singular, "aula", "classroom").
+sust(masculino, singular, "bano", "bathroom").
+sust(masculino, singular, "cuarto", "room").
+sust(femenino, singular, "cocina", "kitchen").
+
+sust(femenino, singular, "manzana", "apple").
+sust(femenino, singular, "sandia", "watermelon").
+sust(masculino, singular, "pan", "bread").
+sust(femenimo, singular, "comida", "food").
+sust(masculino, singular, "pescado", "fish").
+sust(femenino, singular, "naranja", "orange").
+sust(femenino, singular, "ensalada", "salad").
+
+
+sust(neutro, singular, "yo", "i").
+sust(neutro, singular, "yo", "me").
+sust(neutro, singular, "me", "i").
+sust(neutro, plural, "nosotros", "we").
+sust(neutro, plural, "nos", "we").
+sust(neutro, plural, "nosotras", "we").
+sust(neutro, singular, "vos", "you").
+sust(neutro, singular, "tu", "you").
+sust(neutro, singular, "ti", "you").
+sust(neutro, singular, "te", "you").
+sust(neutro, plural, "vosotros", "you").
+sust(neutro, plural, "vosotras", "you").
+sust(neutro, plural, "vos", "you").
+sust(neutro, plural, "os", "you").
+sust(neutro, singular, "ella", "she").
+sust(neutro, singular, "el", "he").
+sust(neutro, plural, "ellos", "they").
+sust(neutro, plural, "ellas", "they").
+sust(neutro, plural, "les", "they").
+
+sust(_, _, [], []).
 
 %%%%%%%%%%%%%Articulos(Article)%%%%%%%%%%%%%%%%%%%%%
 
@@ -941,30 +941,30 @@ preg("como","how").
 
 preg([],[]).
 
-pronombre_personal(primera, singular, "yo").
+pronom_per(primera, singular, "yo").
 
-pronombre_personal(primera, plural, "nosotros").
-pronombre_personal(primera, plural, "nos").
-pronombre_personal(primera, plural, "nosotras").
+pronom_per(primera, plural, "nosotros").
+pronom_per(primera, plural, "nos").
+pronom_per(primera, plural, "nosotras").
 
-pronombre_personal(segunda, singular, "usted").
-pronombre_personal(segunda, singular, "tu").
-pronombre_personal(segunda, singular, "ti").
-pronombre_personal(segunda, singular, "te").
+pronom_per(segunda, singular, "usted").
+pronom_per(segunda, singular, "tu").
+pronom_per(segunda, singular, "ti").
+pronom_per(segunda, singular, "te").
 
-pronombre_personal(segunda, plural, "vosotros").
-pronombre_personal(segunda, plural, "vosotras").
-pronombre_personal(segunda, plural, "vos").
-pronombre_personal(segunda, plural, "os").
+pronom_per(segunda, plural, "vosotros").
+pronom_per(segunda, plural, "vosotras").
+pronom_per(segunda, plural, "vos").
+pronom_per(segunda, plural, "os").
 
-pronombre_personal(tercera, singular, "ella").
-pronombre_personal(tercera, singular, "ello").
-pronombre_personal(tercera, singular, "la").
-pronombre_personal(tercera, singular, "el").
+pronom_per(tercera, singular, "ella").
+pronom_per(tercera, singular, "ello").
+pronom_per(tercera, singular, "la").
+pronom_per(tercera, singular, "el").
 
-pronombre_personal(tercera, plural, "ellos").
-pronombre_personal(tercera, plural, "ellas").
-pronombre_personal(tercera, plural, "les").
+pronom_per(tercera, plural, "ellos").
+pronom_per(tercera, plural, "ellas").
+pronom_per(tercera, plural, "les").
 
 auxq(singular,primera,"do").
 auxq(singular,segunda,"do").
