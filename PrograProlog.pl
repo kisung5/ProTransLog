@@ -1,4 +1,4 @@
-:-include('BaseDeDatos.pl').
+﻿:-include('DataBase.pl').
 
 oracion(S, T):-oracion(S, [], T, []). %Intenta traducir con sentido en los sintagmas
 %oracion(S, T):-por_palabra(S, T). %Traduce palabra a palabra si falla el sentido en los sintagmas
@@ -127,9 +127,10 @@ traducir0(E, I):- var(I), string_lower(E, El), lista_traduccion_oracionE(El, L),
 
 traducir(E, I):- var(I), split_string(E, ",", "", L), concatenar_traduccionE(L, I, ",").
 traducir(E, I):- var(E), split_string(I, ",", "", L), concatenar_traduccionI(L, E, ",").
-
-translog():- write("Por favor ingrese una oracion: \n"), read(X), (((traducir(X, O), !);
-                                                                   (traducir(O, X), !));
-                                                                  mapearS(O)), write("Traduccion: "),
-                                                                  write(O), write("\n"), translog().
+translog():- write("Por favor ingrese una oracion: \n"), read(X),
+    ((X = "$",despedida(K),write(K),write("\n"));(((traducir(X, O), !);
+     (traducir(O, X), !));
+    mapearS(O)), write("Traduccion: "),
+    write(O), write("\n"), translog()).
 mapearS("No se pudo traducir").
+despedida("Gracias por usar nuestro traductor").
