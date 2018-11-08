@@ -249,6 +249,111 @@ nombre(femenino,plural,"nuevas","new").
 nombre(masculino,singular,"comer","to eat").
 nombre(masculino,singular,"cocinar","to cook").
 
+nombre(masculino,singular, "perro", "dog").
+nombre(masculino,plural, "perros", "dogs").
+nombre(masculino,singular, "gato", "cat").
+nombre(masculino, plural, "gatos", "cats").
+nombre(masculino, singular, "caballo", "horse").
+nombre(masculino, plural, "caballos", "horses").
+nombre(masculino, singular, "pajaro", "bird").
+nombre(masculino, plural, "pajaros", "birds").
+nombre(masculino, singular, "oso", "bear").
+nombre(masculino, plural, "osos", "bears").
+nombre(masculino, singular, "conejo", "rabbit").
+nombre(masculino, plural, "conejos", "rabbits").
+nombre(masculino, singular, "zorro", "fox").
+nombre(masculino, plural, "zorros", "foxes").
+nombre(masculino, singular, "lobo", "wolf").
+nombre(masculino, plural, "lobos", "wolves").
+nombre(masculino, singular, "pez", "fish").
+nombre(masculino, plural, "peces", "fish").
+nombre(femenino, singular, "vaca", "cow").
+nombre(femenino, plural, "vacas", "cows").
+nombre(femenino, singular, "abeja", "bee").
+nombre(femenino, plural, "abejas", "bees").
+nombre(femenino, singular, "ballena", "whale").
+nombre(femenino, plural, "ballenas", "whales").
+nombre(femenino, singular, "rata", "rat").
+nombre(femenino, plural, "ratas", "rats").
+nombre(masculino, singular, "arbol", "tree").
+nombre(masculino, plural, "arboles", "trees").
+nombre(masculino, singular, "avion", "airplane").
+nombre(masculino, singular, "barco", "ship").
+nombre(fememnino, singular, "montana", "mountain").
+nombre(masculino, singular, "rio", "river").
+nombre(masculino, singular, "instituto", "institute").
+nombre(femenino, singular, "calle", "street").
+nombre(femenino, singular, "camara", "camera").
+nombre(masculino, singular, "plastico", "plastic").
+nombre(masculino, singular, "cuchillo", "knife").
+nombre(masculino, plural, "cuchillos", "knives").
+
+
+nombre(masculino, singular, "abogado", "lawyer").
+nombre(masculino, plural, "abogados", "lawyers").
+nombre(masculino, singular, "chef", "chef").
+nombre(masculino, singular, "actor", "actor").
+nombre(femenino, singular, "actriz", "actress").
+nombre(masculino, plural, "actores", "actors").
+nombre(masculino, singular, "esposo", "husband").
+nombre(femenino, singular, "esposa", "wife").
+nombre(masculino, singular, "hijo", "son").
+nombre(femenino, singular, "hija", "daughter").
+nombre(masculino, plural, "hijos", "children").
+nombre(femenino, plural, "hijas", "children").
+nombre(masculino, singular, "tio", "uncle").
+nombre(femenino, singular, "tia", "aunt").
+nombre(masculino, singular, "abuelo", "grandfather").
+nombre(femenino, singular, "abuela", "grandmother").
+nombre(masculino, plural, "abuelos", "grandparents").
+nombre(masculino, singular, "hermano", "brother").
+nombre(femenino, singular, "hermana", "sister").
+nombre(masculino, singular, "doctor", "doctor").
+nombre(masculino, singular, "bebe", "baby").
+nombre(masculino, plural, "doctors", "doctors").
+nombre(femenino, singular, "enfermera", "nurse").
+nombre(femenino, plural, "enfermeras", "nurses").
+nombre(masculino, singular, "ingeniero", "engineer").
+nombre(femenino, singular, "ingeniera", "engineer").
+nombre(masculino, singular, "jefe", "boss").
+nombre(masculino, singular, "presidente", "president").
+nombre(masculino, singular, "artista", "artist").
+nombre(femenino, singular, "artista", "artist").
+nombre(masculino, singular, "amigo", "friend").
+nombre(femenino, singular, "amiga", "friend").
+nombre(masculino, plural, "amigos", "friends").
+nombre(masculino, singular, "panadero", "baker").
+nombre(masculino, singular, "musico", "musician").
+nombre(masculino, plural, "musicos", "musician").
+nombre(masculino, singular, "cantante", "singer").
+nombre(masculino, singular, "soldado", "soldier").
+nombre(masculino, singular, "chofer", "driver").
+nombre(masculino, singular, "juez", "jugde").
+nombre(masculino, singular, "nino", "boy").
+nombre(femenino, singular, "nina", "girl").
+nombre(masculino, singular, "lector", "reader").
+nombre(masculino, singular, "lider", "leader").
+nombre(masculino, singular, "maestro", "teacher").
+nombre(masculino, singular, "profesor", "professor").
+nombre(masculino, singular, "policia", "police").
+
+nombre(masculino, singular, "hospital", "hospital").
+nombre(masculino, singular, "hotel", "hotel").
+nombre(femenino, singular, "casa", "house").
+nombre(masculino, singular, "aula", "classroom").
+nombre(masculino, singular, "bano", "bathroom").
+nombre(masculino, singular, "cuarto", "room").
+nombre(femenino, singular, "cocina", "kitchen").
+
+nombre(femenino, singular, "manzana", "apple").
+nombre(femenino, singular, "sandia", "watermelon").
+nombre(masculino, singular, "pan", "bread").
+nombre(femenimo, singular, "comida", "food").
+nombre(masculino, singular, "pescado", "fish").
+nombre(femenino, singular, "naranja", "orange").
+nombre(femenino, singular, "ensalada", "salad").
+
+
 nombre(neutro, singular, "yo", "i").
 nombre(neutro, singular, "yo", "me").
 nombre(neutro, singular, "me", "i").
